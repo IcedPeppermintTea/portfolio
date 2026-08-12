@@ -45,4 +45,4 @@ Hosted on AWS using a fully static, serverless setup:
 - [ ] Add animations
 - [ ] Restructure to use React framework
 - [ ] Explore other designs and colors
-- [ ] Add favicon
+- [x] Add favicon
