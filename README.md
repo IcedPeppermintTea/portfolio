@@ -2,11 +2,14 @@
 
 Personal portfolio site — a terminal-themed single page showcasing projects, skills, and experience.
 
+![live site](https://www.ayleenroque.dev/)
+
 ## Table of Contents
 
 - [About](#about)
 - [Features](#features)
 - [Project Structure](#project-structure)
+- [Deployment](#deployment)
 - [Roadmap](#roadmap)
 
 ## About
@@ -18,7 +21,6 @@ This is a personal developer portfolio built as a single static page with a term
 - **Terminal-styled UI** — sections framed as shell commands (`$ whoami`, `$ ls -la ./projects`, `$ cat stack.txt`)
 - **Project showcase** — list of projects with descriptions, tags, and links to live demos and READMEs
 - **Skills & experience** — quick-reference tech stack and work/education timeline
-- **Fully static** — no dependencies, no build step, deployable anywhere that serves static files
 
 ## Project Structure
 
@@ -30,7 +32,17 @@ This is a personal developer portfolio built as a single static page with a term
 └── README.md
 ```
 
+## Deployment
+
+Hosted on AWS using a fully static, serverless setup:
+
+- **Amazon S3** — stores the site files privately
+- **Amazon CloudFront** — CDN + free HTTPS via AWS Certificate Manager
+- **Cloudflare** — domain registration and DNS
+
 ## Roadmap
 
 - [ ] Add animations
 - [ ] Restructure to use React framework
+- [ ] Explore other designs and colors
+- [ ] Add favicon
