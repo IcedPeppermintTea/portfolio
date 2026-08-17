@@ -2,7 +2,7 @@
 
 Personal portfolio site — a terminal-themed single page showcasing projects, skills, and experience.
 
-![live site](https://www.ayleenroque.dev/)
+[live site](https://www.ayleenroque.dev/)
 
 ## Table of Contents
 
