@@ -1,0 +1,39 @@
+:root {
+  /* backgrounds */
+  --bg-base: #03202c;
+  --bg-nav: rgba(3, 22, 32, 0.5);
+  --bg-panel: rgba(3, 22, 32, 0.55);
+
+  /* glow washes (radial gradients on the base) */
+  --glow-cyan: rgba(28, 184, 200, 0.28);
+  --glow-teal: rgba(11, 90, 110, 0.45);
+
+  /* accents */
+  --accent-gold: #e8b34a;
+  --accent-turquoise: #38d6e0;
+
+  /* text */
+  --text-h: #f4f7f5;
+  --text: #dceaea;
+  --text-body: rgba(220, 234, 234, 0.66); /* 62-70% */
+  --text-muted: rgba(220, 234, 234, 0.48); /* 45-50% */
+
+  /* borders */
+  --border-gold: rgba(232, 179, 74, 0.28);
+  --border-turquoise: rgba(56, 214, 224, 0.22);
+  --border-neutral: rgba(220, 234, 234, 0.18);
+
+  --font-heading: 'Cinzel', Georgia, serif;
+  --font-body: 'Space Grotesk', system-ui, sans-serif;
+
+  font: 18px/145% var(--font-body);
+  letter-spacing: 0.18px;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}

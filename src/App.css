@@ -1,0 +1,151 @@
+/*global*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg-base);
+  background-size: 44px 44px;
+  color: var(--text);
+  font-family: var(--mono);
+}
+
+
+/*--------- navbar ------------- */
+
+.nav {
+  background: var(--bg-nav);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  padding: 20px;
+  border: 1px solid var(--border-gold);
+}
+
+.icon {
+  color: var(--accent-gold);
+  font-family: var(--font-heading);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  font-size: 12.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-body);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus-visible {
+  color: var(--accent-gold);
+}
+
+/* -------- hero --------- */
+
+.hero {
+  padding: 100px 52px 84px;
+  max-width: 900px;
+}
+
+.hero-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 0 0 28px;
+  font-family: var(--font-heading);
+  font-size: 0.9em;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+}
+
+.hero-title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: clamp(38px, 6vw, 66px);
+  line-height: 1.12;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--text-h);
+  text-wrap: balance;
+}
+
+.hero-title-accent { color: var(--accent-turquoise); }
+
+
+.hero-lede {
+  margin: 32px 0 0;
+  max-width: 530px;
+  font-family: var(--text-body);
+  font-size: 16.5px;
+  line-height: 1.8;
+  color: rgba(220, 234, 234, 0.62);
+  text-wrap: pretty;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 42px;
+}
+
+/* -------- buttons --------- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 14px 28px;
+  border-radius: 2px;
+  font-family: var(--font-body);
+  font-size: 12.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+
+.btn--primary {
+  background: var(--accent-gold);
+  color: var(--bg-base);
+  font-weight: 700;
+  border: 1px solid var(--border-gold);
+}
+
+.btn--primary:hover,
+.btn--primary:focus-visible {
+  background: var(--accent-turquoise);
+  border-color: var(border-turquoise);
+}
+
+.btn--ghost {
+  background: transparent;
+  border: 1px solid var(--border-gold);
+  color: var(--accent-gold);
+}
+.btn--ghost:hover,
+.btn--ghost:focus-visible {
+  background: var( --glow-cyan);
+  border-color: var(--border-goldd);
+}
