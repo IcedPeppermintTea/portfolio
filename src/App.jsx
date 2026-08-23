@@ -3,12 +3,14 @@ import "./index.css";
 import "./App.css";
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
+import Slider from "./components/Slider.jsx";
 
 function App() {
   return (
     <>
       <Navbar></Navbar>
       <Hero></Hero>
+      <Slider></Slider>
     </>
   );
 }
