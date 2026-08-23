@@ -63,7 +63,7 @@ body {
 
 .hero {
   padding: 100px 52px 84px;
-  max-width: 900px;
+  max-width: 1200px;
 }
 
 .hero-eyebrow {
@@ -114,7 +114,7 @@ body {
 .btn {
   display: inline-flex;
   align-items: center;
-  padding: 14px 28px;
+  padding: 14px 20px;
   border-radius: 2px;
   font-family: var(--font-body);
   font-size: 12.5px;

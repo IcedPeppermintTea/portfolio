@@ -1,15 +1,15 @@
 export const hero = {
   eyebrow: "Full-stack engineer · Digital Product Manager",
-  title_1: "Charting reliable",
-  title_2: "software across",
-  title_3: "open water.",
-  lede: "I build full-stack web applications and solve real problems. Below, the ships I've launched — logs, screenshots and live demos aboard each.",
+  title_1: "Passionate about",
+  title_2: "building reliable software",
+  title_3: "and solving real problems",
+  lede: "",
   btn_1: {
-    title: "Board The Fleet",
+    title: "GitHub",
     link: "https://github.com/IcedPeppermintTea",
   },
   btn_2: {
-    title: "GitHub ↗",
-    link: "https://github.com/IcedPeppermintTea",
+    title: "LinkedIn",
+    link: "https://www.linkedin.com/in/ayleenroque/",
   },
 };
