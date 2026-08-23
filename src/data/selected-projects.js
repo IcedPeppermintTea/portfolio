@@ -38,7 +38,7 @@ export const projects = [
     title: "Recipe Book",
     description:
       "A dynamic recipe book built with React, TypeScript, and Tailwind CSS. Recipes are stored as individual static JSON files and rendered through a shared template: add a new recipe by adding a new JSON file, no code changes required.",
-    stack: ["React, TypeScript"],
+    stack: ["React", "TypeScript"],
     links: {
       live: "https://icedpepperminttea.github.io/recipes/",
       readme:

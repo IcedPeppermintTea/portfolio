@@ -62,7 +62,6 @@ body {
 /* -------- hero --------- */
 
 .hero {
-  padding: 100px 52px 84px;
   max-width: 1200px;
 }
 
@@ -136,7 +135,7 @@ body {
 .btn--primary:hover,
 .btn--primary:focus-visible {
   background: var(--accent-turquoise);
-  border-color: var(border-turquoise);
+  border-color: var(--border-turquoise);
 }
 
 .btn--ghost {
@@ -148,4 +147,159 @@ body {
 .btn--ghost:focus-visible {
   background: var( --glow-cyan);
   border-color: var(--border-goldd);
+}
+
+/* --------- sections ---------*/
+
+.section-styles {
+  padding: 100px 52px 84px;
+}
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.section-title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-h);
+}
+
+.section-subtitle {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+}
+
+.section-rule {
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 20px;
+  background: var(--border-gold);
+}
+
+/* -------- slider --------- */
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carousel-slider {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border-turquoise);
+  border-radius: 3px;
+  background: var(--bg-panel);
+  width: 100%;
+  max-width: 70vw;
+}
+
+/* card */
+.card {
+  display: flex;
+  min-height: 360px;
+  border-color: var(--accent-gold);
+  margin: 20px;
+}
+
+.card-info {
+  flex: 1 1 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 44px 42px;
+}
+
+.card-info h3 {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.card-info > p {
+  margin: 16px 0 0;
+  max-width: 400px;
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--text-body);
+  text-wrap: pretty;
+}
+
+.card-info-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.card-info-stack > div {
+  padding: 6px 12px;
+  border: 1px solid var(--border-turquoise);
+  font-family: var(--font-body);
+  font-size: 11.5px;
+  letter-spacing: 0.1em;
+  color: var(--accent-turquoise);
+}
+
+.card-info-links {
+  display: flex;
+  gap: 22px;
+  margin-top: auto;
+  padding-top: 30px;
+}
+
+.card-info-links a {
+  font-family: var(--font-body);
+  font-size: 12.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-bottom: 3px;
+  color: var(--accent-gold);
+  border-bottom: 1px solid var(--border-gold);
+}
+
+.card-info-links a:hover,
+.card-info-links a:focus-visible {
+  color: var(--accent-turquoise);
+  border-bottom-color: var(--border-turquoise);
+}
+
+/* second link as secondary */
+.card-info-links a:last-child {
+  color: var(--text-muted);
+  border-bottom-color: var(--border-neutral);
+}
+
+.card-info-links a:last-child:hover {
+  color: var(--accent-gold);
+  border-bottom-color: var(--border-gold);
+}
+
+.card-image {
+  flex: 1 1 45%;
+  border-left: 1px solid var(--border-turquoise);
+  background: var(--glow-teal);
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 860px) {
 }
