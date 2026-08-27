@@ -4,6 +4,7 @@ import { projects } from "../data/selected-projects";
 function Slider() {
   const [current, setCurrent] = useState(0);
   const project_length = projects.length - 1;
+  const project = projects[current];
 
   const prev = () => {
     setCurrent((prev) => (prev === 0 ? project_length : prev - 1));
@@ -12,8 +13,6 @@ function Slider() {
   const next = () => {
     setCurrent((prev) => (prev === project_length ? 0 : prev + 1));
   };
-
-  const project = projects[current];
 
   return (
     <section className="section-styles">
