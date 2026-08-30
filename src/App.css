@@ -358,4 +358,10 @@ body {
 }
 
 @media (max-width: 860px) {
+  .card {
+    flex-direction: column;
+  }
+  .card-image {
+    display: none;
+  }
 }
