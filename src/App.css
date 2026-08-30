@@ -6,10 +6,10 @@
 
 body {
   margin: 0;
-  background: var(--bg-base);
-  background-size: 44px 44px;
+  background-color: var(--bg-base);
   color: var(--text);
   font-family: var(--mono);
+  background-image: radial-gradient(900px at 90% 0%, var(--glow-cyan), transparent 70%);
 }
 
 
@@ -313,15 +313,23 @@ body {
   object-fit: fill;
 }
 
-.carousel-arrows {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 14px;
-  margin: 20px 0 24px;
+.carousel-btns {
   font-family: var(--font-heading);
   letter-spacing: 0.02em;
   color: var(--accent-gold);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+
+.carousel-arrows {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 20px 0 24px;
 }
 
 .carousel-arrows button {

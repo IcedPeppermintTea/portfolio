@@ -23,14 +23,16 @@ function Slider() {
           <span className="section-rule" aria-hidden="true"></span>
         </div>
         <div className="carousel">
-          <div className="carousel-arrows">
+          <div className="carousel-btns">
+            <div className="carousel-arrows">
+              <button onClick={prev} aria-label="previous">
+                ←
+              </button>
+              <button onClick={next} aria-label="next">
+                →
+              </button>
+            </div>
             <span>{`${current + 1} / ${project_length + 1}`}</span>
-            <button onClick={prev} aria-label="previous">
-              ←
-            </button>
-            <button onClick={next} aria-label="next">
-              →
-            </button>
           </div>
           <div className="carousel-slider">
             <div key={current} className="card">
