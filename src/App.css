@@ -9,7 +9,9 @@ body {
   background-color: var(--bg-base);
   color: var(--text);
   font-family: var(--mono);
-  background-image: radial-gradient(900px at 90% 0%, var(--glow-cyan), transparent 70%);
+  background-image: 
+    radial-gradient(900px 520px at 90% -5%, var(--glow-cyan), transparent 70%),
+    radial-gradient(760px 520px at 6% 70%, var(--glow-teal), transparent 66%);
 }
 
 
@@ -351,6 +353,26 @@ body {
   color: var(--bg-base);
 }
 
+
+/* --------------------- Stack ---------------------*/
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  font-family: var(--font-body);
+  color: var(--accent-turquoise)
+}
+
+.tag {
+  padding: 8px 14px;
+  border: 1px solid var(--border-turquoise)
+}
+
+.tag:hover {
+  background-color: var(--glow-teal);
+}
+
 /* animations */
 @keyframes fadeIn {
   from { opacity: 0; }
@@ -365,3 +387,4 @@ body {
     display: none;
   }
 }
+

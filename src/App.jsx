@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import Slider from "./components/Slider.jsx";
+import Stack from "./components/Stack.jsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar></Navbar>
       <Hero></Hero>
       <Slider></Slider>
+      <Stack></Stack>
     </>
   );
 }
