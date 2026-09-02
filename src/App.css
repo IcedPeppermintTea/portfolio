@@ -15,7 +15,7 @@ body {
   font-family: var(--mono);
   background-image: 
     radial-gradient(900px 520px at 90% -3%, var(--glow-cyan), transparent 70%),
-    radial-gradient(760px 520px at 6% 70%, var(--glow-teal), transparent 66%);
+    radial-gradient(760px 520px at 6% 63%, var(--glow-teal), transparent 66%);
 }
 
 
