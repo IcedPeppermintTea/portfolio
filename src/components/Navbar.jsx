@@ -5,8 +5,8 @@ function Navbar() {
         <span>A &middot; R</span>
       </div>
       <div className="nav-links">
-        <a className="nav-link" href="#work">
-          work
+        <a className="nav-link" href="#projects">
+          projects
         </a>
         <a className="nav-link" href="#stack">
           stack

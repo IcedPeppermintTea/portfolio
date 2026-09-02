@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import Slider from "./components/Slider.jsx";
 import Stack from "./components/Stack.jsx";
+import Experience from "./components/Experience.jsx";
 
 function App() {
   return (
@@ -12,7 +13,10 @@ function App() {
       <Navbar></Navbar>
       <Hero></Hero>
       <Slider></Slider>
-      <Stack></Stack>
+      <div className="two-column">
+        <Stack></Stack>
+        <Experience></Experience>
+      </div>
     </>
   );
 }

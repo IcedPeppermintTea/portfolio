@@ -15,10 +15,10 @@ function Slider() {
   };
 
   return (
-    <section className="section-styles">
+    <section className="section-styles" id="projects">
       <div className="selected-projects">
         <div className="section-header">
-          <h2 className="section-title">Selected Projects</h2>
+          <h2 className="section-title">Showcased Projects</h2>
           <p className="section-subtitle">Some of my most recent projects</p>
           <span className="section-rule" aria-hidden="true"></span>
         </div>

@@ -1,5 +1,5 @@
 export const hero = {
-  eyebrow: "Digital Product Manager · Full-stack engineer",
+  eyebrow: "Technical Product Manager · Full-stack engineer",
   title_1: "Passionate about",
   title_2: "building reliable software",
   title_3: "and solving real problems",

@@ -1,6 +1,6 @@
 function Stack() {
   return (
-    <section className="section-styles">
+    <section className="section-styles" id="stack">
       <div className="section-header">
         <h2 className="section-title">Stack</h2>
         <span className="section-rule" aria-hidden="true"></span>
