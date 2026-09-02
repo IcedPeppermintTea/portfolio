@@ -4,7 +4,7 @@ Personal portfolio site — a terminal-themed single page showcasing projects, s
 
 [live site](https://www.ayleenroque.dev/)
 
-_currently undergoing major design changes - need to update README with latest information_
+_this readme is out of date - will be updating soon_
 
 ## Table of Contents
 
