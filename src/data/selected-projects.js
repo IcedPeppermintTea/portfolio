@@ -1,3 +1,10 @@
+import gamerackHome from "../assets/gamerack/home.jpeg";
+import gamerackLibrary from "../assets/gamerack/library.jpeg";
+import kanbanMain from "../assets/kanban/main.jpeg";
+import recipesMain from "../assets/recipes/main.jpeg";
+import chromeExtMain from "../assets/chrome_ext/main.jpeg";
+import etchMain from "../assets/etch/main.jpeg";
+
 export const projects = [
   {
     id: 1,
@@ -11,9 +18,9 @@ export const projects = [
         "https://github.com/IcedPeppermintTea/GameRack/blob/main/README.md",
     },
     images: [
-      { src: "src/assets/gamerack/home.jpeg", alt: "GameRack Home Screen" },
+      { src: gamerackHome, alt: "GameRack Home Screen" },
       {
-        src: "src/assets/gamerack/library.jpeg",
+        src: gamerackLibrary,
         alt: "Library View",
       },
     ],
@@ -29,9 +36,7 @@ export const projects = [
       readme:
         "https://github.com/IcedPeppermintTea/kanban-board/blob/main/README.md",
     },
-    images: [
-      { src: "src/assets/kanban/main.jpeg", alt: "Kanban Board Screen" },
-    ],
+    images: [{ src: kanbanMain, alt: "Kanban Board Screen" }],
   },
   {
     id: 3,
@@ -44,7 +49,7 @@ export const projects = [
       readme:
         "https://github.com/IcedPeppermintTea/recipes/blob/main/README.md",
     },
-    images: [{ src: "src/assets/recipes/main.jpeg", alt: "Recipe Screen" }],
+    images: [{ src: recipesMain, alt: "Recipe Screen" }],
   },
   {
     id: 4,
@@ -59,7 +64,7 @@ export const projects = [
     },
     images: [
       {
-        src: "src/assets/chrome_ext/main.jpeg",
+        src: chromeExtMain,
         alt: "Word Swapper Extension Screen",
       },
     ],
@@ -75,6 +80,6 @@ export const projects = [
       readme:
         "https://github.com/IcedPeppermintTea/etch-a-sketch/blob/main/README.md",
     },
-    images: [{ src: "src/assets/etch/main.jpeg", alt: "Etch-A-Sketch Screen" }],
+    images: [{ src: etchMain, alt: "Etch-A-Sketch Screen" }],
   },
 ];
