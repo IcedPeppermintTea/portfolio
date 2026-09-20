@@ -6,14 +6,14 @@ function Stack() {
         <span className="section-rule" aria-hidden="true"></span>
       </div>
       <div className="tag-list">
-        <span class="tag">JavaScript</span>
-        <span class="tag">React</span>
-        <span class="tag">Python</span>
-        <span class="tag">Flask</span>
-        <span class="tag">HTML / CSS</span>
-        <span class="tag">TypeScript</span>
-        <span class="tag">Git</span>
-        <span class="tag">SQL / PostgreSQL</span>
+        <span className="tag">JavaScript</span>
+        <span className="tag">React</span>
+        <span className="tag">Python</span>
+        <span className="tag">Flask</span>
+        <span className="tag">HTML / CSS</span>
+        <span className="tag">TypeScript</span>
+        <span className="tag">Git</span>
+        <span className="tag">SQL / PostgreSQL</span>
       </div>
     </section>
   );

@@ -2,7 +2,7 @@ function Navbar() {
   return (
     <nav className="nav">
       <div className="icon">
-        <span>A &middot; R</span>
+        <span>Ayleen Roque</span>
       </div>
       <div className="nav-links">
         <a className="nav-link" href="#projects">

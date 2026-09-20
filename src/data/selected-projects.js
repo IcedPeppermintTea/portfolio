@@ -4,6 +4,7 @@ import kanbanMain from "../assets/kanban/main.jpeg";
 import recipesMain from "../assets/recipes/main.jpeg";
 import chromeExtMain from "../assets/chrome_ext/main.jpeg";
 import etchMain from "../assets/etch/main.jpeg";
+import weatherApp from "../assets/weather-app/main.jpeg";
 
 export const projects = [
   {
@@ -30,9 +31,9 @@ export const projects = [
     title: "Kanban Board",
     description:
       "A drag-and-drop task management board built with React and TypeScript. Tasks can be created, moved between columns, and deleted.",
-    stack: ["React", "TypeScript"],
+    stack: ["React", "TypeScript", "Node.js", "JavaScript"],
     links: {
-      live: "https://icedpepperminttea.github.io/kanban-board/",
+      live: "https://icedpepperminttea.github.io/kanban-board-ui/",
       readme:
         "https://github.com/IcedPeppermintTea/kanban-board/blob/main/README.md",
     },
@@ -40,6 +41,19 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Weather Dashboard",
+    description:
+      "A city weather dashboard. Search any city, see current conditions, clothing advice, sun safety, and daylight remaining. Built on the Open-Meteo API.",
+    stack: ["React", "JavaScript"],
+    links: {
+      live: "https://icedpepperminttea.github.io/weather-app/",
+      readme:
+        "https://github.com/IcedPeppermintTea/weather-app/blob/main/README.md",
+    },
+    images: [{ src: weatherApp, alt: "Weather Dashboard" }],
+  },
+  {
+    id: 4,
     title: "Recipe Book",
     description:
       "A dynamic recipe book built with React, TypeScript, and Tailwind CSS. Recipes are stored as individual static JSON files and rendered through a shared template: add a new recipe by adding a new JSON file, no code changes required.",
@@ -52,7 +66,7 @@ export const projects = [
     images: [{ src: recipesMain, alt: "Recipe Screen" }],
   },
   {
-    id: 4,
+    id: 5,
     title: "Word Swapper Chrome Extension",
     description:
       "A Chrome & Edge extension that automatically swaps specific words for others on every web page you visit.",
@@ -70,7 +84,7 @@ export const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Etch-a-Sketch",
     description:
       "A browser-based drawing grid where users can color through the hover action. Allows users to customize the grid to any size up to 100x100 pixels.",
