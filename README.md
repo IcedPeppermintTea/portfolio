@@ -45,6 +45,6 @@ Hosted on AWS using a fully static, serverless setup:
 ## Roadmap
 
 - [ ] Add animations
-- [ ] Restructure to use React framework
+- [x] Restructure to use React framework
 - [ ] Explore other designs and colors
 - [x] Add favicon
